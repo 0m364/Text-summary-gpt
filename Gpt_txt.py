@@ -16,7 +16,7 @@ openai.api_key = openai_key
 
 def summarize(text):
     response = openai.ChatCompletion.create(
-      model="gpt-4.0-turbo",  # Use the correct model name based on availability
+      model="gpt-3.5-turbo",  # Use the correct model name based on availability
       messages=[
             {
                 "role": "system",
